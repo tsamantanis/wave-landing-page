@@ -1,10 +1,13 @@
 import React from "react"
-import "../assets/styles.css"
 
-export default function Home() {
-    return (
-        <div className="Landing">
-        
-        </div>
-    )
-}
+import Layout from '../components/layout';
+
+
+const Home = () => (
+    <Layout>
+    
+    </Layout>
+
+)
+
+export default Home
