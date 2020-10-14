@@ -1,4 +1,5 @@
 @import "variables.css";
+@import "responsive.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
@@ -36,7 +37,7 @@
 }
 
 .Title {
-    width: 60%;
+    width: 40vw;
     color: var(--primary);
     font-size: 4.2rem;
     font-weight: 800;
@@ -46,7 +47,7 @@
 }
 
 .SubTitle {
-    width: 40%;
+    width: 22vw;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -67,8 +68,8 @@
 }
 
 .IphoneX {
-    width: 204px;
-    height: 387px;
+    width: 25vw;
+    height: 47.549vh;
     position: absolute;
 }
 

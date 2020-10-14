@@ -1,0 +1,35 @@
+@media only screen and (min-width: 1500px) {
+    .Title {
+        width: 40vw;
+    }
+
+    .SubTitle {
+        width: 23vw;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .Title {
+        width: 40vw;
+    }
+
+    .SubTitle {
+        width: 32vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 786px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+
+}
