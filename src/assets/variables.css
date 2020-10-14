@@ -1,0 +1,8 @@
+:root {
+    --primary: #2968F6;
+    --secondary: #3DD6D0;
+    --Charcoal: #303030;
+
+    --primary-desat: rgba(41, 104, 246, 0.2);
+    --secondary-desat: rgba(61, 214, 208, 0.2);
+}
