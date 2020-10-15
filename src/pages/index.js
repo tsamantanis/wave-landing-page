@@ -14,7 +14,7 @@ const Home = () => (
                         The new wave in social media
                     </div>
                     <div className="SubTitle">
-                        Wave helps people connect: without ads, like buttons, or distractions
+                        Wave helps people connect: without ads, like buttons, or distractions.
                     </div>
                 </div>
                 <div className="Iphone-Background">
