@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Navigation from './navigation';
 
 import '../assets/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children }) => {
     return (

@@ -6,8 +6,8 @@ import Logo from '../assets/img/logo.inline.svg';
 
 const Navigation = () => {
     return (
-        <Navbar expand="lg" className="navbar-light bg-white">
-            <div className="container">
+        <Navbar expand="lg" className="navbar-light">
+            <div className="container-fluid NavPadding">
                 <Navbar.Brand>
                     <Link to="/">
                         <Logo className="navbar-brand-img" />
@@ -18,11 +18,11 @@ const Navigation = () => {
                     <Navbar.Toggle aria-controls="navbarCollapse">
                         <i className="fe fe-x" />
                     </Navbar.Toggle>
-                    {/*<Nav className="ml-auto">
+                    <Nav className="ml-auto">
                         <Nav.Item>
-                            <Nav.Link href="">Log In</Nav.Link>
+                            <button className="NavCTA">Get Early Access</button>
                         </Nav.Item>
-                    </Nav>*/}
+                    </Nav>
                 </Navbar.Collapse>
             </div>
         </Navbar>

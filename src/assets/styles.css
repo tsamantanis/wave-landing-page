@@ -5,13 +5,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /* Navigation */
+.navbar {
+    transition: 0.3s ease;;
+    transition-property: white, color;
+    z-index: 1;
+}
+
+.NavPadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .navbar-brand-img {
-    padding-left: 40px;
+    /* padding-left: 40px; */
+}
+
+.navbar-collapse .navbar-toggler {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.NavCTA {
+    background: var(--primary);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat",  sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+
 }
 
 .Landing {
     top: 0;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-right: 40px;
     position: relative;
     width: auto;
@@ -19,7 +54,7 @@
 }
 
 .Header {
-    width: 100%;
+    width: 100.6%;
     height: 89vh;
     background: var(--secondary-desat);
     border-radius: 10px;
