@@ -7,6 +7,8 @@ import profile from '../assets/img/Profile.jpg'
 import home from '../assets/img/Home.jpg'
 import camera from '../assets/img/Camera.jpg'
 import message from '../assets/img/Message.jpg'
+import onboarding_1 from '../assets/img/Onboarding_1.jpg'
+import onboarding_3 from '../assets/img/Onboarding_3.jpg'
 
 const Home = () => (
     <Layout>
@@ -33,7 +35,7 @@ const Home = () => (
                         <IphoneX className="device IphoneX rotate-right iphone-second iphone-right-second" />
                         <div className="device-content-container rotate-right device-content-container-right-second device-content-container-second">
                             <div className="container">
-                            <img src={message} alt="Wave App Profile Page"/>
+                                <img src={message} alt="Wave App Message Page"/>
                             </div>
                         </div>
                     </div>
@@ -41,7 +43,7 @@ const Home = () => (
                         <IphoneX className="device IphoneX rotate-right iphone-third iphone-right-third" />
                         <div className="device-content-container rotate-right device-content-container-right-third device-content-container-third">
                             <div className="container">
-
+                                <img src={onboarding_1} alt="Wave App Onboarding Page 1"/>
                             </div>
                         </div>
                     </div>
@@ -57,7 +59,7 @@ const Home = () => (
                         <IphoneX className="device IphoneX rotate-left iphone-second iphone-left-second" />
                         <div className="device-content-container rotate-left device-content-container-left-second device-content-container-second">
                             <div className="container">
-                                <img className="device-img-full" src={camera} alt="Wave App Profile Page"/>
+                                <img className="device-img-full" src={camera} alt="Wave App Camera Page"/>
                             </div>
                         </div>
                     </div>
@@ -65,7 +67,7 @@ const Home = () => (
                         <IphoneX className="device IphoneX rotate-left iphone-third iphone-left-third" />
                         <div className="device-content-container rotate-left device-content-container-left-third device-content-container-third">
                             <div className="container">
-
+                                <img src={onboarding_3} alt="Wave App Onboarding Page 3"/>
                             </div>
                         </div>
                     </div>
