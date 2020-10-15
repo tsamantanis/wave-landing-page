@@ -1,3 +1,3 @@
 # Wave Social Media Platform Landing Page
 
-Built with Gatsby and deployed on Netlify
+Landing page for the Wave social media app. All content and designs are original. You can find the deployed version of this project on https://wave.netlify.app
