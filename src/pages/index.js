@@ -6,6 +6,7 @@ import IphoneX from '../assets/img/iphonex.inline.svg'
 import profile from '../assets/img/Profile.jpg'
 import home from '../assets/img/Home.jpg'
 import camera from '../assets/img/Camera.jpg'
+import message from '../assets/img/Message.jpg'
 
 const Home = () => (
     <Layout>
@@ -32,7 +33,7 @@ const Home = () => (
                         <IphoneX className="device IphoneX rotate-right iphone-second iphone-right-second" />
                         <div className="device-content-container rotate-right device-content-container-right-second device-content-container-second">
                             <div className="container">
-
+                            <img src={message} alt="Wave App Profile Page"/>
                             </div>
                         </div>
                     </div>
