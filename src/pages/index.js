@@ -3,7 +3,7 @@ import React from "react"
 import Layout from '../components/layout';
 
 import IphoneX from '../assets/img/iphonex.inline.svg'
-
+import profile from '../assets/img/Profile.jpg'
 const Home = () => (
     <Layout>
         <div className="Landing">
@@ -20,12 +20,8 @@ const Home = () => (
                     <div className="device">
                         <IphoneX className="device IphoneX rotate-right iphone-first iphone-right-first" />
                         <div className="device-content-container rotate-right device-content-container-first device-content-container-right-first">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-12">
-                                        Hello
-                                    </div>
-                                </div>
+                            <div className="container overflow-hidden">
+                                <img src={profile} alt="Wave App Profile"/>
                             </div>
                         </div>
                     </div>

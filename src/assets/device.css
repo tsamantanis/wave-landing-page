@@ -5,6 +5,7 @@
     > .img-fluid {
         position: relative;
     }
+
 }
 
 .device::before {
@@ -25,10 +26,12 @@
     background: white;
     border-radius: 20px;
     z-index: 0;
+    overflow: hidden;
 }
 
-.device-content-container .container {
-    padding: 30px;
+.device-content-container img {
+    margin-left: -7.5%;
+    width: 115%;
 }
 
 .Iphone-Background {
