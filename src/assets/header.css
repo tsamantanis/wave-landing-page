@@ -1,0 +1,39 @@
+.Header {
+    width: 100.6%;
+    height: 89vh;
+    background: var(--secondary-desat);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.Header-Text-Container {
+    z-index: 2;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    width: 40vw;
+    color: var(--primary);
+    font-size: 4.2rem;
+    font-weight: 800;
+    font-family: "Montserrat",  sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.SubTitle {
+    width: 22vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 32px;
+    text-align: center;
+    color: var(--Charcoal);
+}

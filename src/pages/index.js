@@ -73,6 +73,11 @@ const Home = () => (
                     </div>
                 </div>
             </div>
+            <div className="WantToGetEarlyAccess">
+                <h2>Want to get early access and product updates?</h2>
+                <input type="email" placeholder="Your Email" />
+                <button>Sign Up</button>
+            </div>
         </div>
     </Layout>
 
