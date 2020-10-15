@@ -1,0 +1,129 @@
+
+.device {
+    position: relative;
+
+    > .img-fluid {
+        position: relative;
+    }
+}
+
+.device::before {
+    content: "";
+    background-color: $light;
+}
+
+.device::before,
+.device-screen {
+    position: absolute;
+    object-fit: cover;
+}
+
+.device-content-container {
+    width: 11vw;
+    height: 40vh;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.device-content-container .container {
+    padding: 30px;
+}
+
+.Iphone-Background {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 89vh;
+    overflow: hidden;
+}
+
+.IphoneX {
+    width: 25vw;
+    height: 47.549vh;
+    position: absolute;
+    z-index: 1
+}
+
+.rotate-right {
+    transform: rotate(30deg);
+}
+
+.rotate-left {
+    transform: rotate(-30deg);
+}
+
+.device-content-container-first {
+    top: 33vh;
+}
+
+.device-content-container-second {
+    top: 31vh;
+}
+
+.device-content-container-third {
+    top: 68vh;
+}
+
+.device-content-container-right-first {
+    right: 14.8vw;
+}
+
+.device-content-container-right-second {
+    right: -2vh;
+}
+
+.device-content-container-right-third {
+    right: 19vh;
+}
+
+.device-content-container-left-first {
+    left: 14.8vw;
+}
+
+.device-content-container-left-second {
+    left: -2vh;
+}
+
+.device-content-container-left-third {
+    left: 19vh;
+}
+
+.iphone-first {
+    top: 30vh;
+}
+
+.iphone-second {
+    top: 28vh;
+}
+
+.iphone-third {
+    top: 65vh;
+}
+
+.iphone-right-first {
+    right: 8vw;
+}
+
+.iphone-right-second {
+    right: -14vh;
+}
+
+.iphone-right-third {
+    right: 7vh;
+}
+
+.iphone-left-first {
+    left: 8vw;
+}
+
+.iphone-left-second {
+    left: -14vh;
+}
+
+.iphone-left-third {
+    left: 7vh;
+}

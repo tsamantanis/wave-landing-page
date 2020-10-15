@@ -1,20 +1,51 @@
 @media only screen and (min-width: 1500px) {
     .Title {
-        width: 40vw;
+        width: 40vw !important;
     }
 
     .SubTitle {
-        width: 23vw;
+        width: 23vw !important;
+    }
+
+    .device-content-container {
+        width: 9.5vw !important;
+        height: 39vh;
+    }
+
+    .device-content-container-right-first {
+        margin-top: 0.5vh;
+        margin-right: .75vw;
+    }
+
+    .device-content-container-right-second {
+        margin-right: 1.5vw;
+    }
+
+    .device-content-container-right-third {
+        margin-right: 1.5vw;
+    }
+
+    .device-content-container-left-first {
+        margin-top: 0.5vh;
+        margin-left: .75vw;
+    }
+
+    .device-content-container-left-second {
+        margin-left: 1.5vw;
+    }
+
+    .device-content-container-left-third {
+        margin-left: 1.5vw;
     }
 }
 
 @media only screen and (max-width: 1500px) {
     .Title {
-        width: 40vw;
+        width: 40vw !important;
     }
 
     .SubTitle {
-        width: 32vw;
+        width: 32vw !important;
     }
 }
 

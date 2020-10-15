@@ -1,5 +1,6 @@
 @import "variables.css";
 @import "responsive.css";
+@import "device.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
@@ -57,62 +58,12 @@
     color: var(--Charcoal);
 }
 
-.Iphone-Background {
-    position:absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100%;
-    height: 89vh;
-    overflow: hidden;
+.img-fluid > img,
+.img-fluid > svg {
+    max-width: inherit;
+    height: inherit;
 }
 
-.IphoneX {
-    width: 25vw;
-    height: 47.549vh;
-    position: absolute;
-}
-
-.rotate-right {
-    transform: rotate(30deg);
-}
-
-.rotate-left {
-    transform: rotate(-30deg);
-}
-
-.iphone-first {
-    top: 30vh;
-}
-
-.iphone-second {
-    top: 28vh;
-}
-
-.iphone-third {
-    top: 65vh;
-}
-
-.iphone-right-first {
-    right: 8vw;
-}
-
-.iphone-right-second {
-    right: -14vh;
-}
-
-.iphone-right-third {
-    right: 7vh;
-}
-
-.iphone-left-first {
-    left: 8vw;
-}
-
-.iphone-left-second {
-    left: -14vh;
-}
-
-.iphone-left-third {
-    left: 7vh;
+.overflow-hidden {
+    overflow: hidden !important;
 }

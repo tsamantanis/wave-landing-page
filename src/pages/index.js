@@ -17,12 +17,58 @@ const Home = () => (
                     </div>
                 </div>
                 <div className="Iphone-Background">
-                    <IphoneX className="IphoneX rotate-right iphone-first iphone-right-first" />
-                    <IphoneX className="IphoneX rotate-right iphone-second iphone-right-second" />
-                    <IphoneX className="IphoneX rotate-right iphone-third iphone-right-third" />
-                    <IphoneX className="IphoneX rotate-left iphone-first iphone-left-first" />
-                    <IphoneX className="IphoneX rotate-left iphone-second iphone-left-second" />
-                    <IphoneX className="IphoneX rotate-left iphone-third iphone-left-third" />
+                    <div className="device">
+                        <IphoneX className="device IphoneX rotate-right iphone-first iphone-right-first" />
+                        <div className="device-content-container rotate-right device-content-container-first device-content-container-right-first">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-12">
+                                        Hello
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="device">
+                        <IphoneX className="device IphoneX rotate-right iphone-second iphone-right-second" />
+                        <div className="device-content-container rotate-right device-content-container-right-second device-content-container-second">
+                            <div className="container">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="device">
+                        <IphoneX className="device IphoneX rotate-right iphone-third iphone-right-third" />
+                        <div className="device-content-container rotate-right device-content-container-right-third device-content-container-third">
+                            <div className="container">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="device">
+                        <IphoneX className="device IphoneX rotate-left iphone-first iphone-left-first" />
+                        <div className="device-content-container rotate-left device-content-container-left-first device-content-container-first">
+                            <div className="container">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="device">
+                        <IphoneX className="device IphoneX rotate-left iphone-second iphone-left-second" />
+                        <div className="device-content-container rotate-left device-content-container-left-second device-content-container-second">
+                            <div className="container">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="device">
+                        <IphoneX className="device IphoneX rotate-left iphone-third iphone-left-third" />
+                        <div className="device-content-container rotate-left device-content-container-left-third device-content-container-third">
+                            <div className="container">
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
