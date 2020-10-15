@@ -34,6 +34,11 @@
     width: 110%;
 }
 
+.device-img-full {
+    width: 115% !important;
+    margin-left: -6.5% !important;
+}
+
 .Iphone-Background {
     position:absolute;
     top: 0;
