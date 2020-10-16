@@ -1,0 +1,24 @@
+.WaveInfoFirst {
+    width: 100.6%;
+    height: 89vh;
+    background: var(--primary-desat);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.WaveInfoFirst .device {
+    height: 89vh !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.WaveInfoFirst .IphoneX {
+    height: 89vh !important;
+    right: 25%;
+}
+
+.WaveInfoFirst .device .device-content-container {
+    height: 66vh !important;
+    width: 17.5vw;
+    right: 33%;
+    top: 10.5vh;
+}

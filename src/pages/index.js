@@ -77,7 +77,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="WantToGetEarlyAccess">
-                    <h2>Want to get early access and product updates?</h2>
+                    <h3>Want to get early access and product updates?</h3>
                     <label>
                         <input type="email"
                             value={email}
@@ -86,6 +86,28 @@ const Home = () => {
                         <span>Your email</span>
                     </label>
                     <button>Sign Up</button>
+                </div>
+                <div className="WaveInfoFirst">
+                    <div className="WaveRespectsYou row d-flex align-items-center">
+                        <div className="col-12 col-md-6">
+                            <div className="device align-items-center">
+                                <IphoneX className="IphoneX"/>
+                                <div className="device-content-container">
+                                    <div className="container overflow-hidden">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="row">
+                                <div className="col-12 col-md-10">
+                                    <h2 className="text-primary mb-5">Wave Respects You</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Amet nisl purus in mollis. Amet luctus venenatis lectus magna. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </Layout>
