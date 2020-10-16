@@ -87,14 +87,14 @@ const Home = () => {
                     </label>
                     <button>Sign Up</button>
                 </div>
-                <div className="WaveInfoFirst">
+                <div className="WaveInfo">
                     <div className="WaveRespectsYou row d-flex align-items-center">
                         <div className="col-12 col-md-6">
                             <div className="device align-items-center">
                                 <IphoneX className="IphoneX"/>
                                 <div className="device-content-container">
                                     <div className="container overflow-hidden">
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -102,8 +102,8 @@ const Home = () => {
                         <div className="col-12 col-md-6">
                             <div className="row">
                                 <div className="col-12 col-md-10">
-                                    <h2 className="text-primary mb-5">Wave Respects You</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Amet nisl purus in mollis. Amet luctus venenatis lectus magna. </p>
+                                    <h2 className="text-primary mb-5">Respecting privacy</h2>
+                                    <p>At Wave, we understand that your data is strictly yours. That is why our app does not track you or your activity, and will never sell any of your information.</p>
                                 </div>
                             </div>
                         </div>

@@ -7,7 +7,7 @@
         width: 23vw !important;
     }
 
-    .device-content-container {
+    .Header .device-content-container {
         width: 9.5vw !important;
         height: 39vh;
     }
@@ -36,6 +36,13 @@
 
     .device-content-container-left-third {
         margin-left: 1.5vw;
+    }
+
+    .WaveInfo .WaveRespectsYou .device .device-content-container {
+        height: 80% !important;
+        width: 37%;
+        right: 33%;
+        top: 8% !important;
     }
 }
 
