@@ -75,8 +75,12 @@ const Home = () => (
             </div>
             <div className="WantToGetEarlyAccess">
                 <h2>Want to get early access and product updates?</h2>
-                <input type="email" placeholder="Your Email" />
+                <label>
+                    <input type="email" />
+                    <span>Your email</span>
+                </label>
                 <button>Sign Up</button>
+                <div className="button-gradient">Sign Up</div>
             </div>
         </div>
     </Layout>

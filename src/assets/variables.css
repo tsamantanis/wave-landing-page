@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 :root {
     --primary: #2968F6;
     --secondary: #3DD6D0;
@@ -5,4 +8,14 @@
 
     --primary-desat: rgba(41, 104, 246, 0.2);
     --secondary-desat: rgba(61, 214, 208, 0.2);
+
+    --gradient: linear-gradient(45deg, #3DD6D0 27.6%, #27C8FC 50%, #2968F6 100%);
+
+    --Montserrat: "Montserrat", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--Montserrat) !important;
+    font-weight: 500;
 }

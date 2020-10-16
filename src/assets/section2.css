@@ -1,0 +1,117 @@
+.WantToGetEarlyAccess {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.WantToGetEarlyAccess h2 {
+    margin-bottom: 4rem;
+}
+
+.WantToGetEarlyAccess label {
+    display: flex;
+    text-align: center;
+}
+
+.WantToGetEarlyAccess span {
+    position: absolute;
+    margin: 0.7rem 1em 1rem;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+    transition-delay: 0s;
+    transform-origin: top left;
+    pointer-events: none;
+    opacity: 0.6;
+}
+.WantToGetEarlyAccess input {
+    flex: 1 1 auto;
+    height: 50px;
+    width: 400px;
+    padding: .75em 1em .7em;
+    border-radius: 10px;
+    border: 1px solid var(--primary);
+    font-weight: 600;
+    font-family: var(--Roboto);
+    color: var(--Charcoal);
+    outline: none !important;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    overflow : visible;
+}
+
+.WantToGetEarlyAccess input::placeholder {
+    font-weight: 600;
+    font-family: var(--Roboto);
+    color: rgba(48, 48, 48, 0.3);
+}
+
+.WantToGetEarlyAccess input:hover {
+    border: 2px solid var(--primary);
+}
+
+.WantToGetEarlyAccess input:focus {
+    border: 2px solid var(--primary);
+}
+
+.WantToGetEarlyAccess input:hover + span {
+    transition: transform 0.3s ease;
+    transform: translate(-20px, -35px) scale(.8);
+}
+.WantToGetEarlyAccess input:focus + span {
+    transition: transform 0.3s ease;
+    transform: translate(-20px, -35px) scale(.8);
+}
+
+.WantToGetEarlyAccess button {
+    display: inline-block;
+    padding: .8em 1.6em .65em;
+    cursor: pointer;
+    text-align: center;
+    margin-top: -58px;
+    margin-right: -280px;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--primary);
+    color: white;
+    font-weight: 700;
+    font-family: var(--Roboto);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    opacity: 1;
+    z-index: 1;
+}
+
+.WantToGetEarlyAccess button:hover {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.WantToGetEarlyAccess .button-gradient {
+    display: inline-block;
+    padding: 0.9em 1.6em .65em;
+    cursor: pointer;
+    text-align: center;
+    margin-top: -50px;
+    margin-right: -280px;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: -webkit-linear-gradient(#3DD6D0 27.6%, #27C8FC 50%, #2968F6 100%);
+    background-image: -o-linear-gradient(#3DD6D0 27.6%, #27C8FC 50%, #2968F6 100%);
+    background-image: linear-gradient(45deg, #3DD6D0 27.6%, #27C8FC 50%, #2968F6 100%);
+    color: white;
+    font-weight: 700;
+    font-family: var(--Roboto);
+    z-index: 0;
+}
