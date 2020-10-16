@@ -87,7 +87,7 @@ const Home = () => {
                     </label>
                     <button>Sign Up</button>
                 </div>
-                <div className="WaveInfo">
+                <div className="WaveInfo bg-primary-desat">
                     <div className="WaveRespectsYou row d-flex align-items-center">
                         <div className="col-12 col-md-6">
                             <div className="device align-items-center">
@@ -105,6 +105,23 @@ const Home = () => {
                                     <h2 className="text-primary mb-5">Respecting privacy</h2>
                                     <p>At Wave, we understand that your data is strictly yours. That is why our app does not track you or your activity, and will never sell any of your information. Wave has been created to provide you content you choose to see, and that is all we are going to do.</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="WaveInfo">
+                    <div className="WaveRespectsYou row d-flex align-items-center">
+                        <div className="col-12 col-md-6">
+                            <div className="row">
+                                <div className="col-12 col-md-10 offset-md-2">
+                                    <h2 className="text-primary mb-5">Ad free experience</h2>
+                                    <p>One thing we can all agree on is that sponsored content is the worst. That is why Wave has no sponsored content what-so-ever. We wanted to develop an envirnment where people can see exactly what the choose to, without distractions or ads. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="device align-items-center">
+                                
                             </div>
                         </div>
                     </div>

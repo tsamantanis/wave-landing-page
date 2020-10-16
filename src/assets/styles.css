@@ -2,7 +2,7 @@
 @import "responsive.css";
 @import "header.css";
 @import "section2.css";
-@import "WaveInfoFirst.css";
+@import "information.css";
 @import "device.css";
 
 /* Navigation */
@@ -63,4 +63,8 @@
 
 .primary {
     color: var(--primary);
+}
+
+.bg-primary-desat {
+    background: var(--primary-desat);
 }
