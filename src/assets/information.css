@@ -22,3 +22,11 @@
     height: 75.223776224%;
     width: 36%;
 }
+
+.ChooseWhatYouSeeIllustration {
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

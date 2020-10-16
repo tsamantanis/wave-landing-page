@@ -9,6 +9,7 @@ import camera from '../assets/img/Camera.jpg'
 import message from '../assets/img/Message.jpg'
 import onboarding_1 from '../assets/img/Onboarding_1.jpg'
 import onboarding_3 from '../assets/img/Onboarding_3.jpg'
+import ChooseWhatYouSeeIllustration from '../assets/img/chooseWhatYouSeeIllustration.inline.svg';
 
 const Home = () => {
     const [email, setEmail] = useState('');
@@ -114,14 +115,35 @@ const Home = () => {
                         <div className="col-12 col-md-6">
                             <div className="row">
                                 <div className="col-12 col-md-10 offset-md-2">
+                                    <h2 className="text-primary mb-5">Choose what you see</h2>
+                                    <p>Not all posts have the same priority. There are things you are more excited to see and we created a way for you to do that. With Wave, you can organize your connections in different groups so that you always see the most important content on top.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div className="device align-items-center justify-content-center">
+                                <div className="ChooseWhatYouSeeIllustration">
+                                    <ChooseWhatYouSeeIllustration />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="WaveInfo">
+                    <div className="WaveRespectsYou row d-flex align-items-center">
+                        <div className="col-12 col-md-6">
+                            <div className="row">
+                                <div className="col-12 col-md-10 offset-md-2">
                                     <h2 className="text-primary mb-5">Ad free experience</h2>
                                     <p>One thing we can all agree on is that sponsored content is the worst. That is why Wave has no sponsored content what-so-ever. We wanted to develop an envirnment where people can see exactly what the choose to, without distractions or ads. </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
-                            <div className="device align-items-center">
-                                
+                            <div className="device align-items-center justify-content-center">
+                                <div className="ChooseWhatYouSeeIllustration">
+                                    <ChooseWhatYouSeeIllustration />
+                                </div>
                             </div>
                         </div>
                     </div>
