@@ -103,7 +103,7 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-12 col-md-10">
                                     <h2 className="text-primary mb-5">Respecting privacy</h2>
-                                    <p>At Wave, we understand that your data is strictly yours. That is why our app does not track you or your activity, and will never sell any of your information.</p>
+                                    <p>At Wave, we understand that your data is strictly yours. That is why our app does not track you or your activity, and will never sell any of your information. Wave has been created to provide you content you choose to see, and that is all we are going to do.</p>
                                 </div>
                             </div>
                         </div>
