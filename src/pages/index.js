@@ -86,7 +86,6 @@ const Home = () => {
                         <span>Your email</span>
                     </label>
                     <button>Sign Up</button>
-                    <div className="button-gradient">Sign Up</div>
                 </div>
             </div>
         </Layout>

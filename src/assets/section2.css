@@ -96,27 +96,6 @@
 }
 
 .WantToGetEarlyAccess button:hover {
-    opacity: 0;
+    opacity: 0.8;
     transition: 0.3s ease-in-out;
-}
-
-.WantToGetEarlyAccess .button-gradient {
-    display: inline-block;
-    padding: 0.9em 1.6em .65em;
-    cursor: pointer;
-    text-align: center;
-    margin-top: -50px;
-    margin-right: -280px;
-    height: 50px;
-    width: 120px;
-    border: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-image: -webkit-linear-gradient(#3DD6D0 27.6%, #27C8FC 50%, #2968F6 100%);
-    background-image: -o-linear-gradient(#3DD6D0 27.6%, #27C8FC 50%, #2968F6 100%);
-    background-image: linear-gradient(45deg, #3DD6D0 27.6%, #27C8FC 50%, #2968F6 100%);
-    color: white;
-    font-weight: 700;
-    font-family: var(--Roboto);
-    z-index: 0;
 }
