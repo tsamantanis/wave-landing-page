@@ -58,6 +58,11 @@
     border: 2px solid var(--primary);
 }
 
+.WantToGetEarlyAccess input:not([value=""]) + span {
+    transition: transform 0.3s ease;
+    transform: translate(-20px, -35px) scale(.8);
+}
+
 .WantToGetEarlyAccess input:hover + span {
     transition: transform 0.3s ease;
     transform: translate(-20px, -35px) scale(.8);
