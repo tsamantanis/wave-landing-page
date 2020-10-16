@@ -38,11 +38,9 @@
         margin-left: 1.5vw;
     }
 
-    .WaveInfo .WaveRespectsYou .device .device-content-container {
-        height: 80% !important;
-        width: 37%;
-        right: 33%;
-        top: 8% !important;
+    .WaveInfo .WaveRespectsYou .device .IphoneX {
+        height: 93% !important;
+        margin-top: 3.8%;
     }
 }
 
