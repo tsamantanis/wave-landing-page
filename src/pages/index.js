@@ -1,5 +1,6 @@
 import React, { useState } from "react"
-
+import Helmet from 'react-helmet';
+import { withPrefix, Link } from 'gatsby';
 import Layout from '../components/layout';
 
 import IphoneX from '../assets/img/iphonex.inline.svg'
@@ -16,6 +17,9 @@ const Home = () => {
 
     return (
         <Layout>
+        <Helmet>
+            <script src={withPrefix('script.js')} type="text/javascript" />
+        </Helmet>
             <div className="Landing">
                 <div className="Header">
                     <div className="Header-Text-Container">
@@ -135,14 +139,14 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-12 col-md-10 offset-md-2">
                                     <h2 className="text-primary mb-5">Ad free experience</h2>
-                                    <p>One thing we can all agree on is that sponsored content is the worst. That is why Wave has no sponsored content what-so-ever. We wanted to develop an envirnment where people can see exactly what the choose to, without distractions or ads. </p>
+                                    <p>One thing we can all agree on is that sponsored content is the worst. That is why Wave has no sponsored content what-so-ever. We wanted to develop an environment where people can see exactly what the choose to, without distractions or ads. </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">
                             <div className="device align-items-center justify-content-center">
                                 <div className="ChooseWhatYouSeeIllustration">
-                                    <ChooseWhatYouSeeIllustration />
+
                                 </div>
                             </div>
                         </div>

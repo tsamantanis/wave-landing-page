@@ -1,6 +1,6 @@
 <svg viewBox="0 0 189 334" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="iphonex">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="189" height="334">
+<mask id="mask0" maskUnits="userSpaceOnUse" x="0" y="0" width="189" height="334">
 <path id="mask" fill-rule="evenodd" clip-rule="evenodd" d="M189 0H0V334H189V0ZM58.1739 29.3429V26H44.1988C36.9093 26 31 31.8715 31 39.1143V282.886C31 290.129 36.9093 296 44.1988 296H142.801C150.091 296 156 290.129 156 282.886V39.1143C156 31.8715 150.091 26 142.801 26H128.05V29.3429C128.05 32.8933 125.153 35.7714 121.58 35.7714H64.6439C61.0706 35.7714 58.1739 32.8933 58.1739 29.3429Z" fill="white"/>
 </mask>
 <g mask="url(#mask0)">
