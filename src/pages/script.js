@@ -13,7 +13,7 @@ setTimeout(function() {
             if (scrollPercentage > 0.56) {
                 let drawLength = pathLength * (0.56 - scrollPercentage) * 5;
                 path.style.strokeDashoffset = pathLength - drawLength;
-                if (scrollPercentage >= 0.70) {
+                if (scrollPercentage >= 0.72) {
                     path.style.strokeDasharray = "none";
                 } else {
                     path.style.strokeDasharray = pathLength + ' ' + pathLength;
