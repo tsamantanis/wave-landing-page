@@ -232,8 +232,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="WaveInfo">
-                    <div className="AdFreeExperience row d-flex align-items-center">
+                <div className="WaveInfo AdFreeExperience">
+                    <div className="row d-flex align-items-center">
                         <div className="col-12 col-md-6">
                             <div className="device align-items-center justify-content-center">
                                 <div className="AdFreeExperienceIllustration text-center">
