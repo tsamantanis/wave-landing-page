@@ -66,5 +66,9 @@
 }
 
 .bg-primary-desat {
-    background: var(--primary-desat);
+    background: var(--primary-desat) !important;
+}
+
+.bg-secondary-desat {
+    background: var(--secondary-desat) !important;
 }

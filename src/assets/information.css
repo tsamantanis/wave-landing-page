@@ -30,3 +30,26 @@
     align-items: center;
     justify-content: center;
 }
+
+.ChooseWhatYouSeeIllustration .card {
+    height: 70px !important;
+    margin: 25px 0px 0px 0px;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-desat);
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.ChooseWhatYouSeeIllustration .skewed {
+    transform: skewX(-23deg);
+}
+
+.ChooseWhatYouSeeIllustration .unskewed {
+    transform: skewX(23deg);
+}
+
+.ChooseWhatYouSeeIllustration svg {
+    color: var(--secondary);
+}
