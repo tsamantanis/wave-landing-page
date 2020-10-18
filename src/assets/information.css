@@ -53,3 +53,12 @@
 .ChooseWhatYouSeeIllustration svg {
     color: var(--secondary);
 }
+
+.WaveConnectsPeople {
+    height: 120vh;
+    padding: 10%;
+}
+
+.WaveConnectsPeople svg {
+    margin-top: -15%;
+}

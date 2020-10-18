@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import Layout from '../components/layout';
 
 import IphoneX from '../assets/img/iphonex.inline.svg'
+import WaveConnectsYou from '../assets/img/WaveConnectsYou.inline.svg'
+import AdFreeExperience from '../assets/img/AdFreeExperience.inline.svg'
 import profile from '../assets/img/Profile.jpg'
 import home from '../assets/img/Home.jpg'
 import camera from '../assets/img/Camera.jpg'
@@ -214,20 +216,38 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="WaveInfo WaveConnectsPeople bg-secondary-desat">
+                    <div className="row justify-content-center align-items-center">
+                        <div className="col-12 col-md-8">
+                            <div className="row justify-content-center align-items-center">
+                                <div className="col-12 text-center">
+                                    <h2 className="text-primary mb-5">Genuine connection</h2>
+                                    <p>Wave is a safe place for you to see how your friends are doing and connect, not a popularity contest. There are no like buttons and your number of connections will not be displayed to you or others. Instead, Wave offers you the option to send private comments to help you start a conversation of a post!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-10 text-center">
+                            <WaveConnectsYou />
+                            <a href="https://stories.freepik.com/work">Illustration by Freepik Stories</a>
+                        </div>
+                    </div>
+                </div>
                 <div className="WaveInfo">
-                    <div className="WaveRespectsYou row d-flex align-items-center">
+                    <div className="AdFreeExperience row d-flex align-items-center">
+                        <div className="col-12 col-md-6">
+                            <div className="device align-items-center justify-content-center">
+                                <div className="AdFreeExperienceIllustration text-center">
+                                    <AdFreeExperience />
+                                    <br />
+                                    <a href="https://stories.freepik.com/technology">Illustration by Freepik Stories</a>
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-12 col-md-6">
                             <div className="row">
                                 <div className="col-12 col-md-9 offset-md-2">
                                     <h2 className="text-primary mb-5">Ad free experience</h2>
                                     <p>One thing we can all agree on is that sponsored content is the worst. That is why Wave has no sponsored content what-so-ever. We wanted to develop an environment where people can see exactly what the choose to, without distractions or ads. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6">
-                            <div className="device align-items-center justify-content-center">
-                                <div className="ChooseWhatYouSeeIllustration">
-
                                 </div>
                             </div>
                         </div>
