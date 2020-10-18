@@ -5,22 +5,9 @@
     overflow: hidden;
     margin-bottom: 4rem;
 }
-.WaveInfo .WaveRespectsYou .device {
-    height: 89vh !important;
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
-.WaveInfo .WaveRespectsYou .IphoneX {
-    height: 715px !important;
-    right: 25%;
-}
-
-.WaveInfo .WaveRespectsYou .device .device-content-container {
-    top: 11.088112%;
-    left: 30%;
-    height: 75.223776224%;
-    width: 36%;
+.WaveRespectsYou .device-screen {
+    border-radius: 15px;
 }
 
 .ChooseWhatYouSeeIllustration {

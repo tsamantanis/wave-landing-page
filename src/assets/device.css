@@ -1,22 +1,28 @@
 
 .device {
+  position: relative;
+
+  > .img-fluid {
     position: relative;
-
-    > .img-fluid {
-        position: relative;
-    }
-
+  }
 }
 
 .device::before {
-    content: "";
-    background-color: $light;
+  content: "";
+  background-color: #F9FBFD;
 }
 
 .device::before,
 .device-screen {
-    position: absolute;
-    object-fit: cover;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 30px; 
+}
+
+.device-iphonex::before,
+.device-iphonex > .device-screen {
+  top: 7.784431138%; left: 16.4021164%;
+  width: 66.137566137%; height: 80.838323353%;
 }
 
 .device-content-container {

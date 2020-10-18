@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Layout from '../components/layout';
 
 import IphoneX from '../assets/img/iphonex.inline.svg'
+import iphoneX from '../assets/img/iphonex.svg'
 import WaveConnectsYou from '../assets/img/WaveConnectsYou.inline.svg'
 import AdFreeExperience from '../assets/img/AdFreeExperience.inline.svg'
 import profile from '../assets/img/Profile.jpg'
@@ -88,19 +89,15 @@ const Home = () => {
                     </label>
                     <button>Sign Up</button>
                 </div>
-                <div className="WaveInfo bg-primary-desat">
-                    <div className="WaveRespectsYou row d-flex align-items-center">
-                        <div className="col-12 col-md-6">
-                            <div className="device align-items-center">
-                                <IphoneX className="IphoneX"/>
-                                <div className="device-content-container">
-                                    <div className="container overflow-hidden">
-
-                                    </div>
-                                </div>
+                <div className="WaveInfo WaveRespectsYou bg-primary-desat">
+                    <div className="row justify-content-center align-items-center">
+                        <div className="col-12 col-md-3 offset-md-1">
+                            <div className="device device-iphonex">
+                                <img src={home} className="device-screen" alt="Home Screen" />
+                                <img src={iphoneX} className="img-fluid" alt="Phone Frame" />
                             </div>
                         </div>
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-md-6 offset-md-2">
                             <div className="row">
                                 <div className="col-12 col-md-10">
                                     <h2 className="text-primary mb-5">Respecting privacy</h2>
