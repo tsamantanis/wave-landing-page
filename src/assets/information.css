@@ -6,6 +6,9 @@
     margin-bottom: 4rem;
 }
 
+.WaveRespectsYou {
+    display: flex;
+}
 .WaveRespectsYou .device-screen {
     border-radius: 15px;
 }
