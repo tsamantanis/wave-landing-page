@@ -78,7 +78,7 @@ const Home = () => {
                 </div>
                 <div className="WantToGetEarlyAccess">
                     <h3>Want to get early access and product updates?</h3>
-                    <form name="EarlyAccess" method="POST" action="/success" data-netlify="true">
+                    <form name="EarlyAccess" method="POST" action="/success" data-netlify="true" Content-Type="application/x-www-form-urlencoded">
                         <label htmlFor="email-input-hidden" type="hidden" />
                         <input id="email-input-hidden" type="hidden" name="EarlyAccess" value="email" />
                         <label htmlFor="email">
