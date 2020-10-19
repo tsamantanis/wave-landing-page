@@ -80,7 +80,7 @@ const Home = () => {
                     <h3>Want to get early access and product updates?</h3>
                     <form name="EarlyAccess" method="POST" action="/success" data-netlify="true">
                         <label htmlFor="email-input-hidden" type="hidden" />
-                        <input id="email-input-hidden" type="hidden" name="form-name" value="email" />
+                        <input id="email-input-hidden" type="hidden" name="EarlyAccess" value="email" />
                         <label htmlFor="email">
                             <input
                                 id="email-input"
