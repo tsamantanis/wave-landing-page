@@ -13,8 +13,6 @@ import onboarding_1 from '../assets/img/Onboarding_1.jpg'
 import onboarding_3 from '../assets/img/Onboarding_3.jpg'
 
 const Home = () => {
-    const [email, setEmail] = useState('');
-
     return (
         <Layout>
             <div className="Landing">
@@ -81,15 +79,19 @@ const Home = () => {
                 <div className="WantToGetEarlyAccess">
                     <h3>Want to get early access and product updates?</h3>
                     <form name="EarlyAccess" method="POST" action="/success" data-netlify="true">
-                        <label>
-                            <input type="email"
+                        <label htmlFor="email-input-hidden" type="hidden" />
+                        <input id="email-input-hidden" type="hidden" name="form-name" value="email" />
+                        <label htmlFor="email">
+                            <input
+                                id="email-input"
+                                type="email"
                                 name="email"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
+                                defaultValue=""
+                                requred
                             />
                             <span>Your email</span>
                         </label>
-                        <button>Sign Up</button>
+                        <button type="submit">Sign Up</button>
                     </form>
                 </div>
                 <div className="WaveInfo WaveRespectsYou bg-primary-desat align-items-center">
