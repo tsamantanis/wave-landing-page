@@ -1,7 +1,7 @@
 {
-    "name": "Wave Social App",
+    "name": "wave-landing-page",
     "private": false,
-    "description": "Bringing social back to social media",
+    "description": "Wave App landing page - Bringing social back to social media",
     "version": "0.1.0",
     "license": "0BSD",
     "scripts": {
