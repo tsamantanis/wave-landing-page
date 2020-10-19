@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 
 import IphoneX from '../assets/img/iphonex.inline.svg'
 import iphoneX from '../assets/img/iphonex.svg'
