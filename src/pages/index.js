@@ -80,14 +80,17 @@ const Home = () => {
                 </div>
                 <div className="WantToGetEarlyAccess">
                     <h3>Want to get early access and product updates?</h3>
-                    <label>
-                        <input type="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                        />
-                        <span>Your email</span>
-                    </label>
-                    <button>Sign Up</button>
+                    <form name="EarlyAccess" method="POST" data-netlify="true">
+                        <label>
+                            <input type="email"
+                                name="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                            <span>Your email</span>
+                        </label>
+                        <button>Sign Up</button>
+                    </form>
                 </div>
                 <div className="WaveInfo WaveRespectsYou bg-primary-desat align-items-center">
                     <div className="row justify-content-center align-items-center">
