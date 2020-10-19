@@ -251,6 +251,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="ReadyToGetStarted bg-primary-desat" id="ReadyToGetStarted">
+                    <h3>Ready to start sharing?</h3>
+                    <a href="#WantToGetEarlyAccess">Get Started</a>
+                </div>
             </div>
         </Layout>
     )
