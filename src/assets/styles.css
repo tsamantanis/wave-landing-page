@@ -5,6 +5,11 @@
 @import "information.css";
 @import "device.css";
 
+/* HTML */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navigation */
 .navbar {
     transition: 0.3s ease;;
