@@ -20,7 +20,7 @@ const Navigation = () => {
                     </Navbar.Toggle>
                     <Nav className="ml-auto">
                         <Nav.Item>
-                            <button className="NavCTA">Get Early Access</button>
+                            <a className="NavCTA" href="#WantToGetEarlyAccess">Get Early Access</a>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
