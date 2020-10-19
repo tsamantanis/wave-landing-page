@@ -11,6 +11,10 @@
     margin-bottom: 4rem;
 }
 
+.WantToGetEarlyAccess form {
+    display: flex;
+}
+
 .WantToGetEarlyAccess label {
     display: flex;
     text-align: center;
@@ -77,8 +81,8 @@
     padding: .8em 1.6em .65em;
     cursor: pointer;
     text-align: center;
-    margin-top: -58px;
-    margin-right: -280px;
+    margin-top: 0px;
+    margin-left: -120px;
     height: 50px;
     width: 120px;
     border: none;
