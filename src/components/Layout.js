@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Navigation from './navigation';
+import Navigation from './Navigation';
 
 import '../assets/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
