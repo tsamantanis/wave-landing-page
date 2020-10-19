@@ -60,7 +60,15 @@ html {
     margin-right: 40px;
     position: relative;
     width: auto;
-    height: 289vh;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background: white;
+    color: var(--Charcoal);
+    display: block;
+    bottom: 0 !important;
 }
 
 .img-fluid > img,
