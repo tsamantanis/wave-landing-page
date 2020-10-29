@@ -256,6 +256,20 @@ const Home = () => {
                     <a href="#WantToGetEarlyAccess">Get Started</a>
                 </div>
             </div>
+            <div className="Landing-Mobile">
+                <section>
+                    <div className="row justify-content-center align-items-center pt-4 mb-5">
+                        <div className="col-10 bg-secondary-desat text-center rounded pt-5 pb-5">
+                            <h1 className="text-primary mt-5">
+                                The new wave in social media
+                            </h1>
+                            <p className="lead lh-0.75">
+                                Wave helps people connect: without ads, like buttons, or distractions.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </Layout>
     )
 }
