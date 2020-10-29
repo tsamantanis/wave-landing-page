@@ -265,17 +265,17 @@ const Home = () => {
             <section>
                 <div className="WaveInfo WaveConnectsPeople container bg-secondary-desat">
                     <div className="row justify-content-center align-items-center mt-5">
-                        <div className="col-12 col-lg-8">
+                        <div className="col-12 col-lg-8 col-xl-10 text-center order-lg-1 mb-5 mb-lg-0">
+                            <WaveConnectsYou />
+                            <a href="https://stories.freepik.com/work">Illustration by Freepik Stories</a>
+                        </div>
+                        <div className="col-12 col-lg-8 order-lg-2">
                             <div className="row justify-content-center align-items-center">
                                 <div className="col-12 text-center">
                                     <h2 className="text-primary mb-5">Genuine connection</h2>
                                     <p>Wave is a safe place for you to see how your friends are doing and connect, not a popularity contest. There are no like buttons and your number of connections will not be displayed to you or others. Instead, Wave offers you the option to send private comments to help you start a conversation of a post!</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-12 col-lg-8 col-xl-10 text-center">
-                            <WaveConnectsYou />
-                            <a href="https://stories.freepik.com/work">Illustration by Freepik Stories</a>
                         </div>
                     </div>
                 </div>
