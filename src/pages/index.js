@@ -142,9 +142,9 @@ const Home = () => {
                 </div>
             </section>
             <section>
-                <div className="container WaveInfo WaveRespectsYou bg-primary-desat align-items-center">
-                    <div className="row justify-content-center align-items-center mb-5">
-                        <div className="col-6 col-sm-4 col-lg-6 mb-3 mb-lg-0">
+                <div className="container WaveInfo WaveRespectsYou bg-primary-desat">
+                    <div className="row justify-content-center align-items-center mb-5 mt-5 mt-lg-0">
+                        <div className="col-6 col-sm-4 col-lg-4 mb-3 mb-lg-0">
                             <div className="device device-iphonex">
                                 <img src={home} className="device-screen" alt="Home Screen" />
                                 <img src={iphoneX} className="img-fluid" alt="Phone Frame" />
@@ -251,7 +251,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-6 order-lg-1">
+                        <div className="col-12 col-lg-6 order-lg-1 mt-n5 mt-lg-0">
                             <div className="row">
                                 <div className="col-12 col-lg-9 offset-lg-2">
                                     <h2 className="text-primary mb-5">Choose what you see</h2>
@@ -289,8 +289,8 @@ const Home = () => {
                             <a href="https://stories.freepik.com/technology">Illustration by Freepik Stories</a>
                         </div>
                         <div className="col-12 col-lg-6">
-                            <div className="row mt-4">
-                                <div className="col-12 col-md-9 offset-md-2">
+                            <div className="row mt-5">
+                                <div className="col-12 col-lg-9 offset-lg-2">
                                     <h2 className="text-primary mb-5">Ad free experience</h2>
                                     <p>One thing we can all agree on is that sponsored content is the worst. That is why Wave has no sponsored content what-so-ever. We wanted to develop an environment where people can see exactly what the choose to, without distractions or ads. </p>
                                 </div>
