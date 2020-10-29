@@ -90,6 +90,23 @@
         margin-left: 60% !important;
         margin-top: -8px !important;
     }
+
+    .WaveInfo {
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .ChooseWhatYouSeeIllustration {
+        margin-top: -5rem !important;
+    }
+
+    .ChooseWhatYouSeeIllustration .skewed {
+        transform: skewX(-21deg) !important;
+    }
+
+    .ChooseWhatYouSeeIllustration .unskewed {
+        transform: skewX(21deg) !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
