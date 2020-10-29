@@ -444,7 +444,7 @@ const Home = () => {
                 <section>
                     <div className="WaveInfo WaveConnectsPeople container bg-secondary-desat">
                         <div className="row justify-content-center align-items-center mt-5">
-                            <div className="col-12 col-md-8">
+                            <div className="col-12 col-lg-8">
                                 <div className="row justify-content-center align-items-center">
                                     <div className="col-12 text-center">
                                         <h2 className="text-primary mb-5">Genuine connection</h2>
@@ -452,7 +452,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-10 text-center">
+                            <div className="col-12 col-lg-10 text-center">
                                 <WaveConnectsYou />
                                 <a href="https://stories.freepik.com/work">Illustration by Freepik Stories</a>
                             </div>
@@ -460,19 +460,15 @@ const Home = () => {
                     </div>
                 </section>
                 <section>
-                    <div className="WaveInfo AdFreeExperience">
-                        <div className="row d-flex align-items-center">
-                            <div className="col-12 col-md-6">
-                                <div className="device align-items-center justify-content-center">
-                                    <div className="AdFreeExperienceIllustration text-center">
-                                        <AdFreeExperience />
-                                        <br />
-                                        <a href="https://stories.freepik.com/technology">Illustration by Freepik Stories</a>
-                                    </div>
-                                </div>
+                    <div className="container WaveInfo AdFreeExperience mt-n5 mb-5">
+                        <div className="row d-flex justify-content-center align-items-center">
+                            <div className="col-12 col-lg-6 text-center">
+                                <AdFreeExperience />
+                                <br />
+                                <a href="https://stories.freepik.com/technology">Illustration by Freepik Stories</a>
                             </div>
                             <div className="col-12 col-md-6">
-                                <div className="row">
+                                <div className="row mt-4">
                                     <div className="col-12 col-md-9 offset-md-2">
                                         <h2 className="text-primary mb-5">Ad free experience</h2>
                                         <p>One thing we can all agree on is that sponsored content is the worst. That is why Wave has no sponsored content what-so-ever. We wanted to develop an environment where people can see exactly what the choose to, without distractions or ads. </p>
@@ -482,10 +478,16 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <div className="ReadyToGetStarted bg-primary-desat" id="ReadyToGetStarted">
-                    <h3>Ready to start sharing?</h3>
-                    <a href="#WantToGetEarlyAccess">Get Started</a>
-                </div>
+                <section>
+                    <div className="container bg-primary-desat pt-5 pb-5 rounded ReadyToGetStarted mb-5" id="ReadyToGetStarted">
+                        <div className="row justify-content-center align-items-center pt-5 pb-5">
+                            <div className="col-12 col-lg-6 text-center">
+                                <h3>Ready to start sharing?</h3>
+                                <a href="#WantToGetEarlyAccess">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </Layout>
     )
