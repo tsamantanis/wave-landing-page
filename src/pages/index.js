@@ -258,14 +258,65 @@ const Home = () => {
             </div>
             <div className="Landing-Mobile">
                 <section>
-                    <div className="row justify-content-center align-items-center pt-4 mb-5">
-                        <div className="col-10 bg-secondary-desat text-center rounded pt-5 pb-5">
-                            <h1 className="text-primary mt-5">
-                                The new wave in social media
-                            </h1>
-                            <p className="lead lh-0.75">
-                                Wave helps people connect: without ads, like buttons, or distractions.
-                            </p>
+                    <div className="container">
+                        <div className="row justify-content-center align-items-center pt-4 mb-5">
+                            <div className="col-12 bg-secondary-desat text-center rounded pt-5 pb-5">
+                                <div className="row justify-content-center align-items-center">
+                                    <div className="col-3 col-sm-3">
+                                        <div className="device device-iphonex">
+                                            <img src={camera} className="device-screen" alt="Camera Screen" />
+                                            <img src={iphoneX} className="img-fluid" alt="Phone Frame" />
+                                        </div>
+                                    </div>
+                                    <div className="col-6 col-sm-4">
+                                        <div className="device device-iphonex">
+                                            <img src={home} className="device-screen" alt="Home Screen" />
+                                            <img src={iphoneX} className="img-fluid" alt="Phone Frame" />
+                                        </div>
+                                    </div>
+                                    <div className="col-3 col-sm-3">
+                                        <div className="device device-iphonex">
+                                            <img src={profile} className="device-screen" alt="Profile Screen" />
+                                            <img src={iphoneX} className="img-fluid" alt="Phone Frame" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-12">
+                                        <h1 className="text-primary mt-5">
+                                            The new wave in social media
+                                        </h1>
+                                        <p className="lead">
+                                            Wave helps people connect: without ads, like buttons, or distractions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="container WantToGetEarlyAccess pt-5 pb-5 mb-5" id="WantToGetEarlyAccess">
+                        <div className="row justify-content-center align-items-center">
+                            <div className="col-12 text-center">
+                                <h3>Want to get early access and product updates?</h3>
+                                <form name="EarlyAccess" method="post" action="/success" data-netlify="true" Content-Type="application/x-www-form-urlencoded">
+                                    <label htmlFor="email-input-hidden" type="hidden" />
+                                    <input id="email-input-hidden" type="hidden" name="form-name" value="EarlyAccess" />
+                                    <label htmlFor="email">
+                                        <input
+                                            id="email-input"
+                                            type="email"
+                                            name="email"
+                                            defaultValue=""
+                                            requred
+                                        />
+                                        <span>Your email</span>
+                                    </label>
+                                    <button type="submit">Sign Up</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </section>

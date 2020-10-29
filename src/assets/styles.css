@@ -93,7 +93,3 @@ footer {
 .bg-secondary-desat {
     background: var(--secondary-desat) !important;
 }
-
-.lh-0.75 {
-    line-height: 0.6;
-}

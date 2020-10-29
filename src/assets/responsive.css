@@ -69,10 +69,33 @@
     .navbar-collapse .navbar-toggler {
         display: none;
     }
+
+    .WantToGetEarlyAccess {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .WantToGetEarlyAccess form {
+        display: inline !important;
+    }
+
+    .WantToGetEarlyAccess input {
+        width: 100% !important;
+        padding: auto !important;
+        margin-bottom: -60px !important;
+    }
+
+    .WantToGetEarlyAccess button {
+        width: 40% !important;
+        margin-left: 60% !important;
+        margin-top: -8px !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
-
+    .device-screen {
+        border-radius: 1rem !important;
+    }
 }
 
 @media only screen and (max-width: 786px) {
@@ -108,6 +131,9 @@
         transform: scale(.9);
     }
 
+    .device-screen {
+        border-radius: 0.5rem !important;
+    }
 
 }
 
