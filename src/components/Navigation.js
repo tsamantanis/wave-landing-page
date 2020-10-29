@@ -13,17 +13,9 @@ const Navigation = () => {
                         <Logo className="navbar-brand-img" />
                     </Link>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarCollapse" />
-                <Navbar.Collapse id="navbarCollapse">
-                    <Navbar.Toggle aria-controls="navbarCollapse">
-                        <i className="fe fe-x" />
-                    </Navbar.Toggle>
-                    <Nav className="ml-auto">
-                        <Nav.Item>
-                            <a className="NavCTA" href="#WantToGetEarlyAccess">Get Early Access</a>
-                        </Nav.Item>
-                    </Nav>
-                </Navbar.Collapse>
+                <Nav.Item>
+                    <a className="NavCTA" href="#WantToGetEarlyAccess">Get Early Access</a>
+                </Nav.Item>
             </div>
         </Navbar>
     );
