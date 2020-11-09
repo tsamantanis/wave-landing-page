@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Layout from '../components/Layout';
-
+import SEO from '../components/SEO';
 import IphoneX from '../assets/img/iphonex.inline.svg'
 import iphoneX from '../assets/img/iphonex.svg'
 import WaveConnectsYou from '../assets/img/WaveConnectsYou.inline.svg'
@@ -15,6 +15,7 @@ import onboarding_3 from '../assets/img/Onboarding_3.jpg'
 const Home = () => {
     return (
         <Layout>
+            <SEO title="Social Media App that respects privacy, has no ads, and is not superficial." />
             <div className="Landing">
                 <div className="Header">
                     <div className="Header-Text-Container">

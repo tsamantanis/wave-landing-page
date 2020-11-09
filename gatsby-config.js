@@ -14,6 +14,19 @@ module.exports = {
                 path: `${__dirname}/src/assets/img`
             }
         },
+        `gatsby-plugin-sharp`,
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Wave Social Media App`,
+                short_name: `Wave App`,
+                start_url: `/`,
+                background_color: `#FFFFFF`,
+                theme_color: `#2968F6`,
+                display: `browser`,
+                // icon: `${__dirname}/src/assets/img/icon.png`
+            }
+        },
         'gatsby-plugin-sass',
         {
             resolve: 'gatsby-plugin-react-svg',
