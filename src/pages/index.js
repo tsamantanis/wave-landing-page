@@ -266,11 +266,11 @@ const Home = () => {
             <section>
                 <div className="WaveInfo WaveConnectsPeople container bg-secondary-desat">
                     <div className="row justify-content-center align-items-center mt-5">
-                        <div className="col-12 col-lg-8 col-xl-10 text-center order-lg-1 mb-5 mb-lg-0">
+                        <div className="col-12 col-lg-8 col-xl-10 text-center order-lg-2 mb-5 mb-sm-0">
                             <WaveConnectsYou />
                             <a href="https://stories.freepik.com/work">Illustration by Freepik Stories</a>
                         </div>
-                        <div className="col-12 col-lg-8 order-lg-2">
+                        <div className="col-12 col-lg-8 order-lg-1">
                             <div className="row justify-content-center align-items-center">
                                 <div className="col-12 text-center">
                                     <h2 className="text-primary mb-5">Genuine connection</h2>
